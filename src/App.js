@@ -5,6 +5,7 @@ function App() {
 
   const message = process.env.REACT_APP_NOT_SECRET_CODE;
   console.log(message);
+  
   console.log(process.env);
 
   return (
